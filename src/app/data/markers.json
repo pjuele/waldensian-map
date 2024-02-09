@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Colonia Valdense",
+        "text": "Colonia Valdense is a small city located in southwestern Uruguay, within the Colonia Department. It is home to around 3,200 people.",
+        "coords": [-34.339840281517866, -57.26474822657908]
+    },
+    {
+        "name": "La Paz (CP)",
+        "text": "La Paz, también conocida como Colonia Piamontesa es una localidad uruguaya del departamento de Colonia. Fue fundada el 17 de octubre de 1858 por Doroteo García.",
+        "coords": [-34.34788891174386, -57.30843960466338]
+    },
+    {
+        "name": "Prali",
+        "text": "Prali is a comune (municipality) in the Metropolitan City of Turin in the Italian region Piedmont, located about 60 kilometres (37 mi) southwest of Turin, on the border with France. As of 31 December 2004, it had a population of 322 and an area of 72.6 square kilometres (28.0 sq mi).",
+        "coords": [44.89073533659554, 7.053455540448833]
+    },
+    {
+        "name": "Guardia Piamontese",
+        "text": "The date of Guardia's foundation is unknown, and the name of the place has changed several times in history. &quot;Guardia&quot; means watch or lookout, and this name is probably related to a lookout tower built in the 11th century. Such lookout towers (Italian: torri costiere) were built to warn against Arab pirates, then called Saracens, ravaging the coast. Guardia used to be called Guardia Fiscaldi, after the powerful local feudal lords Fiscaldo/Fuscaldo, originating from Fuscaldo. After the settlement of Waldensian refugees who spoke the Occitan language, the place gained the name of Guardia dei Valdi. After their suppression, the name became Guardia Lombarda, which was changed to Guardia Piemontese in 1863.",
+        "coords": [39.46444886818957, 15.999445804515592]
+    }
+]
