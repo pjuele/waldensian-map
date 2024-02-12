@@ -1,10 +1,12 @@
 import dynamic from 'next/dynamic';
 import { useMemo } from 'react';
-// import MyMap from "./components/map";
+import ArticlePopup from './components/ArticlePopup.cli';
+import FloatingMenu from './components/FloatingMenu.cli';
+import FloatingEmblem from './components/FloatingEmblem.cli';
 
 export default function Home() {
   const MyMap = useMemo(() => dynamic(
-    () => import('./components/map'),
+    () => import('./components/Map.cli'),
     { 
       loading: () => <p>A map is loading</p>,
       ssr: false
@@ -13,7 +15,10 @@ export default function Home() {
   return (
     <main>
       <div id="map" className="w-full h-screen">
-        <MyMap/>
+        <FloatingMenu />
+        <FloatingEmblem/>
+        <MyMap />
+        <ArticlePopup />
       </div>
     </main>
   );

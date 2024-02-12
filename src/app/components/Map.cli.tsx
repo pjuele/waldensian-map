@@ -1,16 +1,22 @@
 'use client';
+
+import Image from 'next/image';
 import {useState, useRef} from 'react';
 import {MapContainer, Marker, Popup, TileLayer, Tooltip} from 'react-leaflet'
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+  } from "@/components/ui/card"
 import markers from '../data/markers.json' assert { type: "json" };
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
-// import mapProviders from '../data/mapProviders';
-// type Marker = {
-//     name: string;
-//     text: string;
-//     coords: [number, number];
-// };
+import { Separator } from '@radix-ui/react-menubar';
+import { Badge } from "@/components/ui/badge"
 
 export default function MyMap() {
     const [center, setCenter] = useState({ lat: 44.89073533659554, lng: 7.053455540448833 })
@@ -18,7 +24,7 @@ export default function MyMap() {
     const mapRef = useRef(null);
     return(
         <MapContainer center={center} zoom={ZOOM_LEVEL} ref={mapRef}
-            className="w-full h-screen" >
+            className="w-full h-screen z-0">
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
@@ -30,11 +36,24 @@ export default function MyMap() {
                     title={location.name}
                     riseOnHover
                 >
+
                     <Popup>
                         <h1>{location.name}</h1>
-                        <hr/>
+                        <Separator />
+                        {location.image && 
+                            <Image
+                                className="w-full"
+                                src={location.image} alt={location.name} width={100} height={100} />
+                        }
                         <p>{location.text}</p>
+                        {location.links && <Separator />}
+                        {location.links?.map((link, index) => (
+                            <Badge variant="outline" key={index} className="m-1">
+                                <a href={link.href} target="_blank">{link.text}</a>
+                            </Badge>
+                        ))}
                     </Popup>
+
                     <Tooltip>
                         {location.name}
                     </Tooltip>

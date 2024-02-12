@@ -1,13 +1,25 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat as FontSans, Rosarivo as FontTitles } from "next/font/google"
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+import Context from "@/app/context";
+import { cn } from "@/lib/utils"
+
+export const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
+
+// export const fontTitles = FontTitles({
+//   subsets: ["latin"],
+//   weight: ["400"],
+//   variable: "--font-titles",
+// })
 
 export const metadata: Metadata = {
   title: "Waldensian Map",
-  description: "A map of locations meaningful to the history of Waldenses.",
-};
+  description: "Lux lucet in tenebris",
+}
 
 export default function RootLayout({
   children,
@@ -16,7 +28,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body 
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable,
+          // fontTitles.variable
+        )}>
+          <Context>
+            {children}
+          </Context>
+      </body>
     </html>
   );
 }
