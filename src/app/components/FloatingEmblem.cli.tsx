@@ -12,7 +12,7 @@ export default function FloatingEmblem() {
                 src="/LuxLucetLogo.png"
                 alt="Emblem"
                 width={150}
-                height={300}
+                height={177}
                 priority
             />
             <h3 className="drop-shadow-[0_2px_2px_rgba(0,0,0,1)]">Waldensian Map</h3>

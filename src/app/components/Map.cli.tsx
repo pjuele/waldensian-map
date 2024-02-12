@@ -3,22 +3,31 @@
 import Image from 'next/image';
 import {useState, useRef} from 'react';
 import {MapContainer, Marker, Popup, TileLayer, Tooltip} from 'react-leaflet'
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card"
-import markers from '../data/markers.json' assert { type: "json" };
+// import markers from '../data/markers.json' assert { type: "json" };
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
 import { Separator } from '@radix-ui/react-menubar';
 import { Badge } from "@/components/ui/badge"
+import { Link1Icon } from '@radix-ui/react-icons';
+import Markdown from 'react-markdown';
 
-export default function MyMap() {
+type Coordinates = {latitude: number, longitude: number};
+
+type Marker = {
+    id: string,
+    name: string,
+    coordinates: Coordinates,
+    image?: string,
+    description?: string,
+    createdAt?: string,
+    publishedAt?: string,
+    updatedAt?: string,
+    imageUrl: string,
+    links: string[],
+};
+
+export default function MyMap({markers}: {markers: Marker[]}) {
     const [center, setCenter] = useState({ lat: 44.89073533659554, lng: 7.053455540448833 })
     const ZOOM_LEVEL = 6
     const mapRef = useRef(null);
@@ -29,10 +38,10 @@ export default function MyMap() {
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
             />
-            {markers && markers.map((location) =>(
+            {markers && markers.map((location, index) => (
                 <Marker
-                    position={location.coords as L.LatLngExpression}
-                    key={location.name}
+                    key={index}
+                    position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
                     title={location.name}
                     riseOnHover
                 >
@@ -45,11 +54,11 @@ export default function MyMap() {
                                 className="w-full"
                                 src={location.image} alt={location.name} width={100} height={100} />
                         }
-                        <p>{location.text}</p>
+                        <Markdown>{location.description}</Markdown>
                         {location.links && <Separator />}
                         {location.links?.map((link, index) => (
                             <Badge variant="outline" key={index} className="m-1">
-                                <a href={link.href} target="_blank">{link.text}</a>
+                                <a href={link} target="_blank">more&nbsp;<Link1Icon /></a>
                             </Badge>
                         ))}
                     </Popup>
