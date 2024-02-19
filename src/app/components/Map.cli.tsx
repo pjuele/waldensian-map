@@ -1,18 +1,19 @@
 'use client';
 
-import Image from 'next/image';
-import {useState, useRef} from 'react';
-import {MapContainer, Marker, Popup, TileLayer, Tooltip} from 'react-leaflet'
-// import markers from '../data/markers.json' assert { type: "json" };
+import {useState, useRef, useContext, useEffect} from 'react';
+import {MapContainer, Marker, TileLayer, Tooltip} from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
-import { Separator } from '@radix-ui/react-menubar';
-import { Badge } from "@/components/ui/badge"
-import { Link1Icon } from '@radix-ui/react-icons';
-import Markdown from 'react-markdown';
+import MarkerPopup from './MarkerPopup';
+import { Coordinates, MyMarker } from '@/types';
+import { appSettings } from '../context';
 
-type Coordinates = {latitude: number, longitude: number};
+// function LogLocation({location}: {location: any}): JSX.Element {
+//     if (location) console.log(location.name, location.coordinates);
+//     return <></>
+// }
+// type Coordinates = {latitude: number, longitude: number};
 
 type Marker = {
     id: string,
@@ -27,46 +28,72 @@ type Marker = {
     links: string[],
 };
 
-export default function MyMap({markers}: {markers: Marker[]}) {
-    const [center, setCenter] = useState({ lat: 44.89073533659554, lng: 7.053455540448833 })
-    const ZOOM_LEVEL = 6
+export default function MyMap({markers}: {markers: MyMarker[]}) {
+    const ZOOM_LEVEL = 3;
+
     const mapRef = useRef(null);
+
+    const mapPosition = useContext(appSettings)?.mapPosition;
+    // const map = useContext(appSettings)?.map;
+    const setMap = useContext(appSettings)?.setMap;
+
+    const [componentMounted, setComponentMounted] = useState(false);
+    const [current, setCurrent] = useState(null);
+
+    // Note to future self:
+    // Using map as a trigger for useEffect didn't work.
+    // mapRef.current could not be used, and mapRef alone didn't
+    // trigger useEffect. So instead I used this extra useEffect that runs
+    // on first render (dependencies = []). And fires up a setInterval
+    // to check periodically for mapRef.current to have a value.
+    // Once that happens, it will set the current map in context
+    // and clear the interval. This seems to work.
+
+    useEffect(() => {
+        // This will run on first render and set a interval to check periodically for mapRef.current to have a value:
+        const interval = setInterval(() => {
+            if (!current && mapRef.current) {
+                setCurrent(mapRef.current);
+                clearInterval(interval);
+            }
+        }, 100);
+    }, []);
+
+    useEffect(() => {
+        if (!componentMounted)  {
+            setComponentMounted(true);
+        } else  if (setMap && current) setMap(current);
+    }, [componentMounted, setMap, current]);
+
+    if (!componentMounted || !mapPosition) {
+        return null;
+    }
+
     return(
-        <MapContainer center={center} zoom={ZOOM_LEVEL} ref={mapRef}
+        <MapContainer
+            center={mapPosition}
+            zoom={ZOOM_LEVEL}
+            ref={mapRef}
             className="w-full h-screen z-0">
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
             />
             {markers && markers.map((location, index) => (
+                <div key={index}>
+                {/* <LogLocation location={location}/> */}
                 <Marker
-                    key={index}
-                    position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
-                    title={location.name}
-                    riseOnHover
+                key={index}
+                position={{ lat: location.coordinates.latitude, lng: location.coordinates.longitude }}
+                title={location.name}
+                riseOnHover
                 >
-
-                    <Popup>
-                        <h1>{location.name}</h1>
-                        <Separator />
-                        {location.image && 
-                            <Image
-                                className="w-full"
-                                src={location.image} alt={location.name} width={100} height={100} />
-                        }
-                        <Markdown>{location.description}</Markdown>
-                        {location.links && <Separator />}
-                        {location.links?.map((link, index) => (
-                            <Badge variant="outline" key={index} className="m-1">
-                                <a href={link} target="_blank">more&nbsp;<Link1Icon /></a>
-                            </Badge>
-                        ))}
-                    </Popup>
-
+                    <MarkerPopup location={location} />
                     <Tooltip>
                         {location.name}
                     </Tooltip>
                 </Marker>
+                </div>
             ))}
         </MapContainer>
     );
