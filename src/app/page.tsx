@@ -3,6 +3,7 @@ import { useMemo } from 'react';
 import ArticlePopup from './components/ArticlePopup.cli';
 import FloatingMenu from './components/FloatingMenu.cli';
 import FloatingEmblem from './components/FloatingEmblem.cli';
+import markers from './data/markers.json';
 
 export default async function Home() {
   const MyMap = useMemo(() => dynamic(
@@ -57,35 +58,36 @@ Lombardia - 18 century
 
 */
 async function getMapMarkers() {
-  const aPIURL = process.env.HYGRAPH_ENDPOINT || '';
-  const response = await fetch(
-    aPIURL,
-    {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        query: `
-        query Places {
-          places {
-            coordinates {
-              latitude
-              longitude
-            }
-            createdAt
-            description
-            imageUrl
-            links
-            id
-            name
-            publishedAt
-            updatedAt
-          }
-        }`,
-      }),
-    }
-  );
-  const json = await response.json();
-  return json.data.places;
+  return markers;
+  // const aPIURL = process.env.HYGRAPH_ENDPOINT || '';
+  // const response = await fetch(
+  //   aPIURL,
+  //   {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify({
+  //       query: `
+  //       query Places {
+  //         places {
+  //           coordinates {
+  //             latitude
+  //             longitude
+  //           }
+  //           createdAt
+  //           description
+  //           imageUrl
+  //           links
+  //           id
+  //           name
+  //           publishedAt
+  //           updatedAt
+  //         }
+  //       }`,
+  //     }),
+  //   }
+  // );
+  // const json = await response.json();
+  // return json.data.places;
 }

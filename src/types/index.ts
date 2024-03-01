@@ -17,6 +17,6 @@ export type MyMarker = {
   createdAt?: string
   publishedAt?: string
   updatedAt?: string
-  imageUrl: string
-  links: string[]
+  imageUrl?: string
+  links?: string | undefined // string[]
 }

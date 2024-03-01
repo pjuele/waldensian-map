@@ -4,8 +4,9 @@ import "./globals.css";
 
 import Context from "@/app/context";
 import { cn } from "@/lib/utils"
+import { Toaster } from "@/components/ui/toaster";
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
@@ -42,6 +43,7 @@ export default function RootLayout({
           <Context>
             {children}
           </Context>
+          <Toaster/>
       </body>
     </html>
   );

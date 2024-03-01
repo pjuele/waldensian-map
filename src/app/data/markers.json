@@ -1,105 +1,143 @@
 [
     {
+        "id": "",
         "name": "Colonia Valdense",
-        "text": "Colonia Valdense is a small city located in southwestern Uruguay, within the Colonia Department. It is home to around 3,200 people.",
-        "coords": [
-            -34.339840281517866,
-            -57.26474822657908
-        ],
-        "image": "/UY-colonia-valdense.jpg"
+        "description": "Colonia Valdense is a small city located in southwestern Uruguay, within the Colonia Department. It is home to around 3,200 people.",
+        "coordinates": {
+            "latitude": -34.339840281517866,
+            "longitude": -57.26474822657908
+        },
+        "imageUrl": "/UY-colonia-valdense.jpg"
     },
     {
+        "id": "",
         "name": "La Paz (CP)",
-        "text": "La Paz, también conocida como Colonia Piamontesa es una localidad uruguaya del departamento de Colonia. Fue fundada el 17 de octubre de 1858 por Doroteo García.",
-        "coords": [
-            -34.34788891174386,
-            -57.30843960466338
-        ],
-        "image": "/LaPaz.jpeg",
-        "links": [
-            {
-                "text": "Turismo IMC",
-                "href": "https://www.colonia.gub.uy/turismo/unaCiudad.php?x=7b52009b64fd0a2a49e6d8a939753077792b0554"
-            },
-            {
-                "text": "Wikipedia",
-                "href": "https://es.wikipedia.org/wiki/La_Paz_(Colonia)"
-            }
-        ]
+        "description": "La Paz, también conocida como Colonia Piamontesa es una localidad uruguaya del departamento de Colonia. Fue fundada el 17 de octubre de 1858 por Doroteo García.",
+        "coordinates": {
+            "latitude": -34.34788891174386,
+            "longitude": -57.30843960466338
+        },
+        "imageUrl": "/LaPaz.jpeg",
+        "links": ""
     },
     {
+        "id": "",
         "name": "Prali",
-        "text": "Prali is a comune (municipality) in the Metropolitan City of Turin in the Italian region Piedmont, located about 60 kilometres (37 mi) southwest of Turin, on the border with France. As of 31 December 2004, it had a population of 322 and an area of 72.6 square kilometres (28.0 sq mi).",
-        "coords": [
-            44.89073533659554,
-            7.053455540448833
-        ],
-        "image": "/IT-prali.webp",
-        "links": [
-            {
-                "text": "Comune di Prali",
-                "href": "https://www.comune.prali.to.it/"
-            }
-        ]
+        "description": "Prali is a comune (municipality) in the Metropolitan City of Turin in the Italian region Piedmont, located about 60 kilometres (37 mi) southwest of Turin, on the border with France. As of 31 December 2004, it had a population of 322 and an area of 72.6 square kilometres (28.0 sq mi).",
+        "coordinates": {
+            "latitude": 44.89073533659554,
+            "longitude": 7.053455540448833
+        },
+        "imageUrl": "/IT-prali.webp",
+        "links": ""
     },
     {
+        "id": "",
+        "name": "Agape International Ecumenical Center",
+        "description": "Agape is an ambitious project that was born halfway through the last century from the ideas of a Waldensian pastor, Tullio Vinay. Its main goal is to be a meeting place. The founding values of Agape, i.e. reconciliation and reconstruction, are at the basis of all its activities. From the community life and volunteer work to the daily life in the centre, priority is given to being and living together in an inclusive and sustainable way.   \nThe camps held at Agape provide a space for discussion about different subjects: current political and social topics, gender-related, spiritual and theological issues, as well as training and education.   \nAgape belongs to the centers and organizations of the Waldensian Church in Italy.   \n[Agape Website](https://agapecentroecumenico.org/en/volontariato/#interp)",
+        "coordinates": {
+            "latitude": 44.89325145006269,
+            "longitude": 7.054895341280833
+        },
+        "imageUrl": "/IT-agape.jpg",
+        "links": "https://agapecentroecumenico.org/en/the-agape-project/"
+    },
+    {
+        "id": "",
         "name": "Guardia Piemontese",
-        "text": "The date of Guardia's foundation is unknown, and the name of the place has changed several times in history. 'Guardia' means watch or lookout, and this name is probably related to a lookout tower built in the 11th century. Such lookout towers (Italian: torri costiere) were built to warn against Arab pirates, then called Saracens, ravaging the coast. Guardia used to be called Guardia Fiscaldi, after the powerful local feudal lords Fiscaldo/Fuscaldo, originating from Fuscaldo. After the settlement of Waldensian refugees who spoke the Occitan language, the place gained the name of Guardia dei Valdi. After their suppression, the name became Guardia Lombarda, which was changed to Guardia Piemontese in 1863.",
-        "coords": [
-            39.46444886818957,
-            15.999445804515592
-        ],
-        "image": "/IT-guardia-piemontese.jpg",
-        "links": [
-            {
-                "text": "Calabria Straordinaria",
-                "href": "https://calabriastraordinaria.it/en/destinations/guardia-piemontese-la-gardia-crossroads-of-culture-and-religion"
-            }
-        ]
+        "description": "Guardia Piemontese (Occitan: La Gàrdia) is a town and comune in the province of Cosenza and the region of Calabria in southern Italy.   \nDuring the 12th and 13th centuries, Waldensians arrived in Calabria from the Kingdom of Arles and Dauphiné, which had part of his territories also in the most western valleys of Piedmont. By 1315, they had settled in Montalto Uffugo, later also in San Sosti dei Valdesi, Vacarizzo and San Vincenzo. The local feudal lords, the Spinelli, being lords of Fuscaldo, granted them refuge. By 1375, they had also settled on the hill rising to 500 metres above sea level on which the upper town of Guardia now stands. For a long period, the Waldensians pretended to live as Roman Catholics, attending the Holy Mass and having their children baptised in Catholic churches. However, privately they stuck to their beliefs and received travelling Waldensian preachers for few days in intervals of about two years.   \nWith the successes of the Reformation, many secret Waldensians decided not to hide their true religious beliefs any longer. In 1532, they decided at their Synod of Chanforan (in Piedmont) to confess their beliefs openly. Thereupon, Calabrese Waldensians sent Marco Uscegli as an envoy to Geneva, with the request for preachers to be dispatched. In this way the preacher Gian Luigi Pascale came to Calabria, and he established Waldensian churches in Guardia Piemontese and San Sosti. The Waldensians in their traditional areas in Piedmont did the same, and in 1560 the locally powerful Bishop of Mondovì, Cardinal Michele Ghislieri (later to become Pope Pius V), initiated a crusade against the Waldensians.   \nThe Calabrese Roman Catholic Abbot Giovan Antonio Anania informed Ghislieri that the Waldensians in Calabria had meanwhile also adopted preachers of their own, so Ghislieri ordered the abbot to eradicate the Waldensian heresy, in coordination with his local Archbishop of Cosenza, Taddeo Gaddi. First, Anania tried to coerce the Waldensians into converting by way of threats, but they refused. With a sense of foreboding, many Waldensians from neighbouring places fled to Guardia, which was fortified.[8] Guardia's lord Salvatore Spinelli (c. 1506–1565) tried to make the Waldensians relent and advised Pascale and Uscegli to flee, but in vain.   \nSpinelli, who did not wish to be accused of favouring heretics, finally resorted to a trick. In June 1561, he requested entry to the town for himself and fifty of his men, claiming that they would come unarmed. Loyal to their lord, the men of Guarda let them in. In the night of 4 to 5 June, Spinelli and his henchmen took out their hidden weapons and took the town by force. In doing so, and by further pogroms in the following two weeks, Spinelli and his henchmen murdered about 2,000 Waldensians in Guardia Piemontese and other places. This bloodshed is commemorated by the name of the town's main gate, the Porta del Sangue, or Gate of Blood, because it was said that the blood of the murdered flowed all the way down to it. Next to the town gate there is now the Centro di Cultura Giovan Luigi Pascale which contains a permanent exhibition on the history of the Waldensians of Guardia.   \nThe survivors of the massacre had to convert to Roman Catholicism, and marriages between a man and a woman both of Waldensian descent were forbidden. Spioncini, spyholes to be opened from the outside, were to be built into the town's front doors, in order to allow inquisitors to spy into the houses and check whether the compulsory converts really abstain from Waldensian traditions. Some spioncini can still be found in frontdoors. The Waldensian church was demolished. On its site, today's Piazza Chiesa Valdese, a piece of rock from Piedmont was put in 1975, donated by Guardia's twin city Torre Pellice in memory of the descent of many Guardioti from the Piedmontese rocky Alps. The names of 118 known victims of the 1561 massacre are listed in a plaque at the rock.   \nIn memory of the eradication of the Waldensian heresy, Salvatore Spinelli donated the Dominican church Chiesa del SS. Rosario in Guardia. In April 1565 he was created Marchese of Fuscaldo in honour of his deed.",
+        "coordinates": {
+            "latitude": 39.46444886818957,
+            "longitude": 15.999445804515592
+        },
+        "imageUrl": "/IT-guardia-piemontese.jpg",
+        "links": ""
     },
     {
+        "id": "",
+        "name": "Riesi, Sicilia",
+        "description": "",
+        "coordinates": {
+            "latitude": 37.298382050917205,
+            "longitude": 14.088574132857541
+        }
+    },
+    {
+        "id": "",
         "name": "Waldensian Presbyterian Church",
-        "text": "The Waldensian Presbyterian Church is a member of the Presbyterian Church, USA.\n\nThe Waldensian Presbyterian Church preserves its ties with the original Waldensian church of Italy: Chiesa Evangelica Valdese (Waldensian Evangelical Church) and its subsequent settlement in Uruguay and Argentina, South America: Iglesia Evangelica Valdense (Waldensian Evangelical Church in the Rio de la Plata).",
-        "coords": [
-            35.74715198160884,
-            -81.57816945767196
-        ],
-        "image": "/US-waldensian-presbyterian-church.webp",
-        "links": [
-            {
-                "text": "WPC website",
-                "href": "https://waldensianpresbyterianchurch.com/welcome"
-            }
-        ]
+        "description": "The Waldensian Presbyterian Church is a member of the Presbyterian Church, USA.\n\nThe Waldensian Presbyterian Church preserves its ties with the original Waldensian church of Italy: Chiesa Evangelica Valdese (Waldensian Evangelical Church) and its subsequent settlement in Uruguay and Argentina, South America: Iglesia Evangelica Valdense (Waldensian Evangelical Church in the Rio de la Plata).",
+        "coordinates": {
+            "latitude": 35.74715198160884,
+            "longitude": -81.57816945767196
+        },
+        "imageUrl": "/US-waldensian-presbyterian-church.webp",
+        "links": ""
     },
     {
+        "id": "",
         "name": "Town of Valdense, NC",
-        "text": "Valdese, in the heart of Burke County is located in the foothills of Western North Carolina 'where the Piedmont meets the Mountains.' The Catawba River traverses Burke County west to east creating a wide valley and Lake Rhodhiss. The valley is intersected by I-40, US Highways 64 and 70, and NC Highways 18 and 181. Interstates 26, 77, and 85 are within a 50-mile radius. Founded on the rich traditions of 19th century Waldensian settlers, the Town of Valdese honors the heritage and determination of the Waldenses with its historic attractions, parks and annual events.",
-        "coords": [
-            35.740315569618225,
-            -81.5651988335899
-        ],
-        "image": "/US-NC-valdense-town-hall.jpg",
-        "links": [
-            {
-                "text": "Website",
-                "href": "https://www.townofvaldese.com/"
-            }
-        ]
+        "description": "Valdese, in the heart of Burke County is located in the foothills of Western North Carolina 'where the Piedmont meets the Mountains.' The Catawba River traverses Burke County west to east creating a wide valley and Lake Rhodhiss. The valley is intersected by I-40, US Highways 64 and 70, and NC Highways 18 and 181. Interstates 26, 77, and 85 are within a 50-mile radius. Founded on the rich traditions of 19th century Waldensian settlers, the Town of Valdese honors the heritage and determination of the Waldenses with its historic attractions, parks and annual events.",
+        "coordinates": {
+            "latitude": 35.740315569618225,
+            "longitude": -81.5651988335899
+        },
+        "imageUrl": "/US-NC-valdense-town-hall.jpg",
+        "links": ""
     },
     {
+        "id": "",
         "name": "Neuhengstett, Germany",
-        "text": "In 1698 and 1699, Henri Arnaud, officer, priest and leader of the Waldensians led a group of Waldensian religious refugees from the Chisonetal/Pragelatal via Switzerland to their future home in Württemberg.\n\nSeptember 1, 1700 is the founding date of the “Colony of Simmozheim”, which later became Neuhengstett. The first settlers, 28 families with a total of 134 people, probably first called their new home “Bourcet”.",
-        "coords": [
-            48.73554807802748,
-            8.783942946471807
-        ],
-        "image": "/DE-neuhengstett.jpg",
-        "links": [
-            {
-                "text": "Le Bourset Website",
-                "href": "https://heimatgeschichtsverein-neuhengstett.de/"
-            }
-        ]
+        "description": "In 1698 and 1699, Henri Arnaud, officer, priest and leader of the Waldensians led a group of Waldensian religious refugees from the Chisonetal/Pragelatal via Switzerland to their future home in Württemberg.\n\nSeptember 1, 1700 is the founding date of the “Colony of Simmozheim”, which later became Neuhengstett. The first settlers, 28 families with a total of 134 people, probably first called their new home 'Bourcet'.",
+        "coordinates": {
+            "latitude": 48.73554807802748,
+            "longitude": 8.783942946471807
+        },
+        "imageUrl": "/DE-neuhengstett.jpg",
+        "links": ""
+    },
+    {
+        "id": "",
+        "name": "Hessen-Darmstadt (Germany)",
+        "description": "Hessen-Darmstadt is the capital city of the province of Hessen and the municipality of Darmstadt in the German state of Hessen. It is located in the south-west of Germany.\nIn 1698 and 1699, Henri Arnaud, officer, priest and leader of the Waldensians led a group of Waldensian religious refugees from the Chisonetal/Pragelatal via Switzerland to their future home in Württemberg.\n\nSeptember 1, 1700 is the founding date of the “Colony of Simmozheim”, which later became Neuhengstett. The first settlers, 28 families with a total of 134 people, probably first called their new home 'Bourcet'",
+        "coordinates": {
+            "latitude": 49.875173716091375,
+            "longitude": 8.646235681964596
+        }
+    },
+    {
+        "id": "",
+        "name": "Kassel, Germany",
+        "description": "Kassel is the capital city of the German state of Rhineland-Palatinate.",
+        "coordinates": {
+            "latitude": 51.31399882077468,
+            "longitude": 9.47640522784633
+        }
+    },
+    {
+        "id": "",
+        "name": "Homburg, Germany",
+        "description": "Homburg is a city in the Rhineland-Palatinate of Germany.",
+        "coordinates": {
+            "latitude": 49.32501071543746,
+            "longitude": 7.336397138538079
+        }
+    },
+    {
+        "id": "",
+        "name": "Nassau-Dillemburg, Germany",
+        "description": "Nassau-Dillemburg is a city in the Rhineland-Palatinate.",
+        "coordinates": {
+            "latitude": 50.73732342748723,
+            "longitude": 8.287697731039573
+        }
+    },
+    {
+        "id": "",
+        "name": "Lyon, France",
+        "description": "Birthplace of Peter Waldo.",
+        "coordinates": {
+            "latitude": 45.764043,
+            "longitude": 4.835659
+        }
     }
 ]

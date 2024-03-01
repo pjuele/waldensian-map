@@ -8,12 +8,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import MarkerPopup from './MarkerPopup';
 import { Coordinates, MyMarker } from '@/types';
 import { appSettings } from '../context';
-
-// function LogLocation({location}: {location: any}): JSX.Element {
-//     if (location) console.log(location.name, location.coordinates);
-//     return <></>
-// }
-// type Coordinates = {latitude: number, longitude: number};
+import { useToast } from "@/components/ui/use-toast"
 
 type Marker = {
     id: string,
@@ -39,7 +34,25 @@ export default function MyMap({markers}: {markers: MyMarker[]}) {
 
     const [componentMounted, setComponentMounted] = useState(false);
     const [current, setCurrent] = useState(null);
+    const [isDarkMode, setIsDarkMode] = useState(undefined as boolean | undefined);
+    // const [showToast, setShowToast] = useState(false as boolean);
+    // const [toastText, setToastText] = useState("");
+    const { toast } = useToast()
 
+    const getMediaQueryPreference = () => {
+        const mediaQuery = "(prefers-color-scheme: dark)";
+        const mql = window.matchMedia(mediaQuery);
+        const hasPreference = typeof mql.matches === "boolean";
+        mql.addEventListener("change", () => {
+          setIsDarkMode(mql.matches);
+        })
+        if (hasPreference) {
+          return mql.matches ? "dark" : "light";
+        } else {
+          return "light";
+        }
+      };
+    
     // Note to future self:
     // Using map as a trigger for useEffect didn't work.
     // mapRef.current could not be used, and mapRef alone didn't
@@ -57,13 +70,23 @@ export default function MyMap({markers}: {markers: MyMarker[]}) {
                 clearInterval(interval);
             }
         }, 100);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {
         if (!componentMounted)  {
             setComponentMounted(true);
-        } else  if (setMap && current) setMap(current);
-    }, [componentMounted, setMap, current]);
+        } else {
+            setIsDarkMode(getMediaQueryPreference() === "dark");
+            // setToastText(isDarkMode ? "☾ Nighttime mode detected!" : "☀ Daytime mode detected!");
+            // setShowToast(true);
+            toast({
+                title: "Map settings updated!",
+                description: isDarkMode ? "☾ Nighttime mode detected!" : "☀ Daytime mode detected!",
+              })
+            if (setMap && current) setMap(current);
+        }
+    }, [componentMounted, setMap, current, isDarkMode, toast]);
 
     if (!componentMounted || !mapPosition) {
         return null;
@@ -73,12 +96,18 @@ export default function MyMap({markers}: {markers: MyMarker[]}) {
         <MapContainer
             center={mapPosition}
             zoom={ZOOM_LEVEL}
+            minZoom={3}
+            maxBounds={[[80, 180], [-70, -180]]}
             ref={mapRef}
             className="w-full h-screen z-0">
             <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
-            />
+                // attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url={isDarkMode ?
+                    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png' :
+                    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+                }
+                // url='https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
+                />
             {markers && markers.map((location, index) => (
                 <div key={index}>
                 {/* <LogLocation location={location}/> */}

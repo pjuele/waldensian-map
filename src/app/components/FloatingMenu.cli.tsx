@@ -15,8 +15,24 @@ import { appSettings } from "@/app/context";
 import works from "../data/works";
 import waldensiansContent from "../data/waldensiansContent";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Toast } from "@/components/ui/toast";
+import { useToast } from "@/components/ui/use-toast";
+import meaningfulRegions from "../data/meaningfulRegions.data";
 
+function callFlyTo(
+    map: L.Map,
+    title: string,
+    coordinates: [number, number],
+    zoom: number,
+    toast: (arg0: any) => any,
+    toastMessage: string,
+    ): void {
+    if (map) map.flyTo(coordinates, zoom);
+    toast({
+        title: "✈ Flying to:   " + title,
+        description: toastMessage,
+    });
+}
 export default function FloatingMenu() {
     const popupSettings = useContext(appSettings)?.popupSettings;
     const setShowPopup = popupSettings?.setShowPopup || (() => {});
@@ -25,21 +41,15 @@ export default function FloatingMenu() {
     const setText = popupSettings?.setPopupText || (() => {});
     const setImages = popupSettings?.setPopupImages || (() => {});
     const map = useContext(appSettings)?.map;
-    const buttons = [
-        {title: "🇫🇷 France", flyTo: [45.24153127420497, 1.374880125186357], zoom: 7},
-        {title: "🇩🇪 Germany", flyTo: [50.333098644339366, 10.163852416330544], zoom: 7},
-        {title: "🇮🇹 Piedmont", flyTo: [45.08415686991131, 7.765991952323152]},
-        {title: "🇮🇹 Calabria", flyTo: [39.37573892988883, 16.252504627114753]},
-        {title: "🇺🇾 Uruguay", flyTo: [-34,-56.5], zoom: 9},
-    ];
+    const {toast} = useToast();
 
     return (
         <div className="z-20 absolute top-0 right-0 p-3 rounded-lg shadow-lg flex flex-row gap-2 align-middle">
-            {buttons.map(({title, flyTo, zoom = 8}) =>
+            {meaningfulRegions.map(({title, coords, zoom = 8, toastMessage}) =>
                 <Button variant={"default"} key={title}
                     className="py-0 px-2"
                     onClick={() => {
-                        if (map) map?.flyTo(flyTo as [number, number], zoom);
+                        callFlyTo(map as L.Map, title, coords as [number, number], zoom, toast, toastMessage);
                     }}>
                     {title}
                 </Button>
