@@ -2,7 +2,7 @@
     {
         "id": "",
         "name": "Colonia Valdense",
-        "description": "Colonia Valdense is a small city located in southwestern Uruguay, within the Colonia Department. It is home to around 3,200 people.",
+        "description": "Colonia Valdense is a small city located in southwestern Uruguay, within the Colonia Department. It is home to around 3,200 people and serves as the administrative center of the Colonia Valdense municipality.\n\nColonia Valdense represents one of the most successful Waldensian settlements in the Rio de la Plata region. Founded in 1858 by Waldensian immigrants from the Piedmont valleys of Italy, it was established as part of a larger wave of European immigration to Uruguay in the mid-19th century. The settlement was carefully planned by Waldensian leaders who sought to maintain their religious and cultural traditions while building new lives in South America. The town's architecture, with its distinctive Alpine-influenced buildings, reflects its Piedmontese origins. The Waldensian church in Colonia Valdense remains active today and serves as a spiritual center for Waldensians throughout Uruguay and the broader Rio de la Plata region. The community has successfully preserved its Protestant heritage while integrating into Uruguayan society, contributing significantly to the country's agricultural and cultural development.",
         "coordinates": {
             "latitude": -34.339840281517866,
             "longitude": -57.26474822657908
@@ -11,8 +11,8 @@
     },
     {
         "id": "",
-        "name": "La Paz (CP)",
-        "description": "La Paz, también conocida como Colonia Piamontesa es una localidad uruguaya del departamento de Colonia. Fue fundada el 17 de octubre de 1858 por Doroteo García.",
+        "name": "La Paz (Colonia Piamontesa)",
+        "description": "La Paz, también conocida como Colonia Piamontesa, is a locality in the Colonia Department of Uruguay. Founded on October 17, 1858, by Doroteo García, it sits in the agricultural heartland of southwestern Uruguay.\n\nColonia Piamontesa was established as part of the same wave of Waldensian immigration that founded Colonia Valdense. The settlement was named 'Piamontesa' in honor of the Piedmont region of Italy from which the Waldensian colonists originated. Like other Waldensian settlements in Uruguay, La Paz was founded with the goal of preserving Protestant religious traditions while establishing a prosperous agricultural community. The colonists brought with them advanced farming techniques from the Alpine valleys of Piedmont, which proved well-suited to the fertile plains of Uruguay. The community maintained strong ties with both Colonia Valdense and the original Waldensian valleys in Italy, creating a network of mutual support that helped ensure the survival and prosperity of Waldensian culture in South America.",
         "coordinates": {
             "latitude": -34.34788891174386,
             "longitude": -57.30843960466338
@@ -23,7 +23,7 @@
     {
         "id": "",
         "name": "Prali",
-        "description": "Prali is a comune (municipality) in the Metropolitan City of Turin in the Italian region Piedmont, located about 60 kilometres (37 mi) southwest of Turin, on the border with France. As of 31 December 2004, it had a population of 322 and an area of 72.6 square kilometres (28.0 sq mi).",
+        "description": "Prali is a comune (municipality) in the Metropolitan City of Turin in the Italian region Piedmont, located about 60 kilometres southwest of Turin, on the border with France. This small Alpine community sits at an elevation of 1,030 meters in the upper Germanasca Valley and had a population of 322 as of 2004.\n\nPrali holds significant importance in Waldensian history as one of the traditional strongholds in the upper valleys of Piedmont. The village lies in the Germanasca Valley, one of the three main Waldensian valleys along with the Pellice and Chisone valleys. For centuries, Prali served as a refuge for Waldensians fleeing persecution from the plains below. The rugged Alpine terrain provided natural protection, allowing the community to maintain its Protestant faith and traditions even during the most intense periods of Catholic persecution. The village's proximity to the French border made it a crucial crossing point for Waldensian pastors and religious literature. Today, Prali continues to be an important part of the Waldensian cultural landscape, preserving the traditional Alpine lifestyle and Protestant heritage that have characterized these valleys for over eight centuries.",
         "coordinates": {
             "latitude": 44.89073533659554,
             "longitude": 7.053455540448833
@@ -56,7 +56,7 @@
     {
         "id": "",
         "name": "Riesi, Sicilia",
-        "description": "",
+        "description": "Riesi is a town and comune in the province of Caltanissetta in the Sicily region of southern Italy. Located in the central part of the island, it has a population of approximately 11,000 and is situated in an area known for agriculture and mining.\n\nRiesi represents part of the lesser-known Waldensian presence in Sicily during the medieval period. While Sicily was never a major center of Waldensian activity like the Piedmont valleys or Calabria, the island did see some Waldensian settlement and influence during the 12th and 13th centuries. Waldensian merchants and traders likely used Sicily as a stopping point in their Mediterranean commercial networks, and some may have established small communities there. The presence of Waldensians in Sicily demonstrates the wide geographic spread of the movement during its early centuries, reaching from the Alpine valleys to the southern Mediterranean. Although the Waldensian presence in Sicily was eventually absorbed or eliminated by the dominant Catholic culture, it represents an important chapter in understanding the full extent of medieval Waldensian expansion across Europe and the Mediterranean basin.",
         "coordinates": {
             "latitude": 37.298382050917205,
             "longitude": 14.088574132857541
@@ -134,10 +134,370 @@
     {
         "id": "",
         "name": "Lyon, France",
-        "description": "Birthplace of Peter Waldo.",
+        "description": "Lyon is a major city in southeastern France, situated at the confluence of the Rhône and Saône rivers. As the third-largest city in France, Lyon has been an important commercial and cultural center since Roman times and serves as the capital of the Auvergne-Rhône-Alpes region.\n\nLyon holds the distinction of being the birthplace of the Waldensian movement through Peter Waldo (also known as Valdes or Valdo), a wealthy merchant who experienced a profound religious conversion around 1170. Waldo commissioned the translation of parts of the Bible into the vernacular and began preaching poverty and apostolic simplicity in the streets of Lyon. His followers, initially called the 'Poor Men of Lyon,' would eventually become known as Waldensians. When the Archbishop of Lyon forbade Waldo from preaching without ecclesiastical authorization, he famously responded, 'We must obey God rather than men,' establishing the principle of lay preaching that would become central to Waldensian theology. Lyon thus marks the geographical and spiritual origin of a movement that would spread across medieval Europe and survive centuries of persecution to become one of the oldest Protestant denominations, predating the Reformation by over 300 years.",
         "coordinates": {
             "latitude": 45.764043,
             "longitude": 4.835659
+        }
+    },
+    {
+        "id": "",
+        "name": "Torre Pellice",
+        "description": "Torre Pellice is a comune in the Metropolitan City of Turin in the Italian region of Piedmont, located in the Pellice Valley about 45 kilometers southwest of Turin. The town sits at an elevation of 516 meters and serves as the administrative center of the Waldensian valleys with a population of approximately 4,700.\n\nTorre Pellice holds immense significance as the spiritual and administrative heart of the Waldensian church and community. The town houses the headquarters of the Waldensian Evangelical Church (Chiesa Evangelica Valdese), including the theological faculty, seminary, and central administrative offices. The historic Waldensian temple, built in 1852, serves as a symbol of religious freedom and the community's resilience through centuries of persecution. Torre Pellice was crucial during periods of religious conflict, serving as an organizational center for Waldensian resistance and a meeting place for synods that shaped the future of the movement. The town hosts the annual Waldensian cultural festivals and houses the Waldensian Museum (Museo Valdese), which preserves the rich heritage of this ancient Christian minority that has maintained its faith for over 800 years.",
+        "coordinates": {
+            "latitude": 44.8158,
+            "longitude": 7.2159
+        }
+    },
+    {
+        "id": "",
+        "name": "Luserna San Giovanni",
+        "description": "Luserna San Giovanni is a comune in the Metropolitan City of Turin in Piedmont, Italy, located in the Pellice Valley. With a population of about 7,700, it is one of the larger towns in the Waldensian valleys and serves as an important commercial and cultural center.\n\nLuserna San Giovanni represents the largest Waldensian community in the traditional valleys and has played a central role in preserving and promoting Waldensian culture and identity. The town has been home to numerous Waldensian institutions, including schools, cultural organizations, and the historic Waldensian publishing house Claudiana, which has been instrumental in preserving Waldensian theological works and historical documents. During the centuries of persecution, Luserna San Giovanni served as a refuge and organizing center for the Waldensian resistance. The town's strategic location in the Pellice Valley made it a natural gathering point for the scattered mountain communities. Today, it continues to be a vibrant center of Waldensian life, hosting cultural events, maintaining active Protestant congregations, and serving as a bridge between the traditional valley communities and the modern world.",
+        "coordinates": {
+            "latitude": 44.8142,
+            "longitude": 7.2406
+        }
+    },
+    {
+        "id": "",
+        "name": "Angrogna",
+        "description": "Angrogna is a comune in the Metropolitan City of Turin in Piedmont, Italy, situated in a secluded valley branching off from the main Pellice Valley. This small mountain commune, with a population of around 900, sits at an elevation of about 930 meters above sea level.\n\nAngrogna holds a legendary place in Waldensian history as one of the most isolated and fiercely independent Waldensian strongholds. The difficult terrain and remote location made it an ideal refuge during periods of intense persecution, earning it the nickname 'the citadel of Waldensian resistance.' The valley's narrow entrance and steep mountainsides provided natural fortification against attacking forces. Many of the most dramatic episodes of Waldensian resistance took place in and around Angrogna, including heroic stands against the armies of the Duke of Savoy. The community maintained its Protestant faith with remarkable tenacity, often serving as a hidden sanctuary for Waldensian pastors and religious leaders when they were forced to flee other areas. The famous Waldensian caves (Grotte Valdesi) in the Angrogna area served as secret meeting places for worship during the darkest periods of persecution.",
+        "coordinates": {
+            "latitude": 44.8203,
+            "longitude": 7.1836
+        }
+    },
+    {
+        "id": "",
+        "name": "Bobbio Pellice",
+        "description": "Bobbio Pellice is a small comune in the Metropolitan City of Turin, located in the upper Pellice Valley of Piedmont, Italy. This mountain village sits at an elevation of approximately 732 meters and has a population of around 600 people.\n\nBobbio Pellice represents one of the highest and most remote Waldensian communities in the Pellice Valley, serving as a crucial frontier settlement in the network of Waldensian villages. Its position in the upper valley made it a vital link between the Italian Waldensian communities and Protestant networks in France and Switzerland. The village's remote location provided natural protection during persecutions, but also posed challenges for maintaining contact with other Waldensian communities. Bobbio Pellice has preserved many traditional aspects of Waldensian mountain culture, including distinctive architectural styles and agricultural practices adapted to the Alpine environment. The community has maintained its Protestant identity through centuries of isolation and hardship, contributing to the preservation of Waldensian traditions and serving as a living testament to the movement's ability to survive in even the most challenging circumstances.",
+        "coordinates": {
+            "latitude": 44.8592,
+            "longitude": 7.1258
+        }
+    },
+    {
+        "id": "",
+        "name": "Villar Pellice",
+        "description": "Villar Pellice is a comune in the Metropolitan City of Turin in the Italian region of Piedmont, located in the middle Pellice Valley. This mountain community sits at an elevation of about 1,200 meters and has a population of approximately 1,200 residents.\n\nVillar Pellice has been a cornerstone of Waldensian identity and resistance throughout the centuries. The town's elevated position in the valley provided strategic advantages during conflicts and made it a natural fortress during periods of persecution. Villar Pellice was frequently mentioned in historical accounts of Waldensian resistance movements and served as a gathering point for valley communities during times of crisis. The town has maintained strong Waldensian traditions and continues to play an important role in preserving the cultural and religious heritage of the valleys. Its Protestant church remains active and serves surrounding mountain hamlets. The community has successfully balanced preservation of traditional Waldensian culture with adaptation to modern life, making it an important example of how historic Protestant communities in the Alps have evolved while maintaining their distinctive identity.",
+        "coordinates": {
+            "latitude": 44.8467,
+            "longitude": 7.1594
+        }
+    },
+    {
+        "id": "",
+        "name": "Pinerolo",
+        "description": "Pinerolo is a comune in the Metropolitan City of Turin in Piedmont, Italy, located at the entrance to the Pellice and Chisone valleys. With a population of about 36,000, it is the largest city in the area and serves as the administrative and commercial center for the Waldensian valleys region.\n\nPinerolo has played a complex but crucial role in Waldensian history as both a center of persecution and, later, a place of refuge and opportunity. During the medieval and early modern periods, Pinerolo often served as the headquarters for authorities organizing campaigns against the Waldensian communities in the surrounding valleys. However, the city's location at the confluence of the valleys also made it an important commercial and administrative center for the region. Following the gradual acceptance of religious tolerance, Pinerolo became an important center for Waldensian education and cultural activities. The city hosts several institutions connected to Waldensian heritage and serves as a gateway for visitors to the historic valleys. Today, Pinerolo represents the successful integration of Waldensian communities into broader Italian society while maintaining respect for their unique historical and cultural contributions.",
+        "coordinates": {
+            "latitude": 44.8853,
+            "longitude": 7.3297
+        }
+    },
+    {
+        "id": "",
+        "name": "Rorà",
+        "description": "Rorà is a small comune in the Metropolitan City of Turin in Piedmont, Italy, located in the Pellice Valley at an elevation of about 830 meters. This mountain village has a population of approximately 270 people and represents one of the smallest but historically significant Waldensian communities.\n\nRorà occupies a unique place in Waldensian history due to its dramatic involvement in the 1655 massacre known as the 'Piedmont Easter' or 'Pasque Piemontesi.' The village was the site of one of the most brutal episodes of anti-Waldensian persecution when Savoyard troops, supported by French forces, attacked the defenseless population. The massacre at Rorà became internationally notorious and prompted protests across Protestant Europe, including a famous sonnet by John Milton titled 'On the Late Massacre in Piedmont.' The events at Rorà galvanized international support for the Waldensian cause and helped establish the principle of international intervention for religious minorities. Despite the traumatic history, the community rebuilt and maintained its Protestant identity, serving as a powerful symbol of Waldensian resilience and the international solidarity that helped ensure their survival.",
+        "coordinates": {
+            "latitude": 44.8325,
+            "longitude": 7.1972
+        }
+    },
+    {
+        "id": "",
+        "name": "Bibiana",
+        "description": "Bibiana is a comune in the Metropolitan City of Turin in Piedmont, Italy, located at the mouth of the Pellice Valley where it opens onto the Po Plain. With a population of about 3,300, it serves as a transition point between the mountain valleys and the agricultural plains below.\n\nBibiana holds strategic importance in Waldensian history as one of the gateway communities between the isolated mountain valleys and the outside world. Its location made it both vulnerable to attack and important for trade and communication. During periods of persecution, Bibiana often served as a first line of defense for the valley communities and a crucial escape route for those fleeing religious persecution. The town witnessed numerous conflicts between Waldensian defenders and attacking forces throughout the centuries. In more peaceful times, Bibiana became an important center for Waldensian commerce and interaction with the broader Piedmontese society. The community successfully maintained its Protestant identity while engaging in the economic and social life of the region, demonstrating the Waldensian ability to balance religious distinctiveness with practical integration into surrounding society.",
+        "coordinates": {
+            "latitude": 44.8389,
+            "longitude": 7.2889
+        }
+    },
+    {
+        "id": "",
+        "name": "Bricherasio",
+        "description": "Bricherasio is a comune in the Metropolitan City of Turin in Piedmont, Italy, located in the lower Pellice Valley. With a population of approximately 4,600, it is one of the larger communities in the Waldensian valleys region and serves as an important commercial center.\n\nBricherasio played a significant role in Waldensian history as one of the more accessible valley communities, making it both a center of activity and a frequent target during periods of persecution. The town's location in the lower valley made it an important meeting point between the mountain Waldensian communities and supporters in the plains. During the 17th and 18th centuries, Bricherasio was often involved in negotiations between Waldensian leaders and civil authorities. The community has maintained active Protestant institutions and continues to play an important role in preserving Waldensian cultural heritage. The town exemplifies the evolution of Waldensian communities from isolated mountain refuges to integrated participants in modern Italian society while preserving their distinctive religious and cultural identity.",
+        "coordinates": {
+            "latitude": 44.8264,
+            "longitude": 7.2842
+        }
+    },
+    {
+        "id": "",
+        "name": "San Secondo di Pinerolo",
+        "description": "San Secondo di Pinerolo is a comune in the Metropolitan City of Turin in Piedmont, Italy, located in the Po Valley plain near the entrance to the Waldensian valleys. With a population of about 3,600, it serves as one of the gateway communities to the historic Waldensian region.\n\nSan Secondo di Pinerolo has played an important role as a transition zone between the Waldensian mountain communities and the broader Piedmontese society of the plains. Throughout history, the town served as a commercial and administrative link between the valleys and the outside world. During periods of religious tolerance, San Secondo became an important center for Waldensian economic activities and cultural exchange. The community has maintained Protestant institutions while fully participating in the economic and social life of the region. Today, San Secondo represents the successful integration of Waldensian heritage into modern Italian life, serving as an example of how historic religious minorities have contributed to the cultural diversity and richness of Piedmontese society.",
+        "coordinates": {
+            "latitude": 44.8953,
+            "longitude": 7.3031
+        }
+    },
+    {
+        "id": "",
+        "name": "Pomaretto",
+        "description": "Pomaretto is a comune in the Metropolitan City of Turin in Piedmont, Italy, located in the Germanasca Valley (Val Germanasca). This mountain town sits at an elevation of about 730 meters and has a population of approximately 1,100 residents.\n\nPomaretto holds significant importance in Waldensian history as one of the principal communities in the Germanasca Valley, one of the three main Waldensian valleys along with Pellice and Chisone. The town served as a crucial center for the valley's Waldensian population and played an important role in maintaining connections between the scattered mountain communities. The Germanasca Valley's location along ancient trade routes made Pomaretto strategically important for both commerce and communication with Protestant communities in France and Switzerland. During periods of persecution, the town's mountain location provided natural protection while its position in the valley floor made it accessible for community gatherings and religious services. Pomaretto has preserved much of its traditional Alpine architecture and continues to maintain active Protestant institutions that serve the broader valley community.",
+        "coordinates": {
+            "latitude": 44.9397,
+            "longitude": 7.1711
+        }
+    },
+    {
+        "id": "",
+        "name": "Salza di Pinerolo",
+        "description": "Salza di Pinerolo is a small comune in the Metropolitan City of Turin in Piedmont, Italy, located in the upper Chisone Valley. This Alpine village sits at an elevation of about 1,200 meters and has a population of around 90 people, making it one of the smallest municipalities in the region.\n\nSalza di Pinerolo represents one of the highest and most remote Waldensian settlements in the traditional valleys. Its location in the upper Chisone Valley, near the French border, made it a crucial frontier community for the Waldensian network. The village's extreme altitude and isolation provided natural protection during periods of intense persecution, serving as a refuge for Waldensians fleeing from lower valleys. The community's proximity to France made it an important crossing point for Waldensian pastors, religious literature, and refugees moving between Italy and Protestant areas of France. Despite its small size and remote location, Salza di Pinerolo has maintained its identity as a Waldensian community and serves as a powerful symbol of the movement's ability to survive and preserve its faith even in the most challenging mountain environments.",
+        "coordinates": {
+            "latitude": 44.9833,
+            "longitude": 6.9833
+        }
+    },
+    {
+        "id": "",
+        "name": "Massello",
+        "description": "Massello is a small comune in the Metropolitan City of Turin in Piedmont, Italy, located in the upper Germanasca Valley near the French border. This mountain village sits at an elevation of about 1,300 meters and has a population of approximately 60 people.\n\nMassello holds a special place in Waldensian history as one of the most isolated and resilient mountain communities. Its extreme elevation and remote location in the upper Germanasca Valley made it virtually inaccessible to persecuting forces, earning it a reputation as an impregnable Waldensian stronghold. The village served as a crucial refuge during the most intense periods of religious persecution and maintained an almost legendary status among Waldensian communities for its resistance to outside pressure. Massello's proximity to the French border made it an important escape route and communication link with Protestant communities abroad. The village has preserved many traditional aspects of Waldensian mountain culture and continues to serve as a powerful symbol of the community's determination to maintain its faith and identity despite centuries of challenges and isolation.",
+        "coordinates": {
+            "latitude": 44.9789,
+            "longitude": 7.0714
+        }
+    },
+    {
+        "id": "",
+        "name": "Rosario, Argentina",
+        "description": "Rosario is a major city in the province of Santa Fe, Argentina, located on the western shore of the Paraná River. With a population of over 1.3 million, it is the third-largest city in Argentina and an important industrial and commercial center in the Rio de la Plata region.\n\nRosario became an important destination for Waldensian immigrants in the late 19th and early 20th centuries as part of the broader European immigration wave to Argentina. Waldensian families from the Piedmont valleys established themselves in Rosario and the surrounding agricultural areas, contributing significantly to the development of agriculture and commerce in the region. The Waldensian community in Rosario maintained strong connections with both the original valleys in Italy and other Waldensian settlements in Uruguay and Argentina. They established Protestant churches, schools, and cultural organizations that helped preserve their religious and cultural heritage while adapting to Argentine society. The Waldensian presence in Rosario represents the successful expansion of the movement beyond its traditional Alpine strongholds to become a truly international Protestant denomination with thriving communities across the Americas.",
+        "coordinates": {
+            "latitude": -32.9442,
+            "longitude": -60.6505
+        }
+    },
+    {
+        "id": "",
+        "name": "Buenos Aires, Argentina",
+        "description": "Buenos Aires is the capital and largest city of Argentina, located on the western shore of the Rio de la Plata. With a metropolitan population of over 15 million, it serves as the political, economic, and cultural center of Argentina and one of the most important cities in South America.\n\nBuenos Aires became a crucial hub for Waldensian immigration to the Rio de la Plata region, serving as the primary port of entry for thousands of Waldensian families arriving from Italy in the late 19th and early 20th centuries. The city housed important Waldensian institutions, including churches, schools, and administrative offices that coordinated settlement efforts throughout Argentina and Uruguay. The Waldensian community in Buenos Aires established the Iglesia Evangelica Valdense del Rio de la Plata, which became the central organization for Waldensian churches throughout the region. Many Waldensian immigrants initially settled in Buenos Aires before moving to rural areas or other cities, making it a vital staging ground for the establishment of Waldensian communities throughout Argentina. The city continues to host active Waldensian congregations and cultural organizations that maintain connections with the global Waldensian community.",
+        "coordinates": {
+            "latitude": -34.6118,
+            "longitude": -58.3960
+        }
+    },
+    {
+        "id": "",
+        "name": "Chanforan (Angrogna)",
+        "description": "Chanforan is a locality in the territory of Angrogna, in the Pellice Valley of Piedmont, Italy. This remote mountain site is located at a high elevation in one of the most isolated areas of the traditional Waldensian valleys.\n\nChanforan holds extraordinary significance in Waldensian and Protestant history as the site of the historic Synod of Chanforan in 1532. This gathering marked a crucial turning point when the Waldensian movement formally aligned itself with the Protestant Reformation. At this synod, Waldensian representatives decided to abandon their previous secrecy and openly declare their Protestant beliefs, effectively joining the broader European Reformation movement. The decisions made at Chanforan included the adoption of Reformed theology, the establishment of closer ties with other Protestant churches, and the commitment to public preaching and education. The synod sent representatives to Geneva to establish formal connections with John Calvin and other Reformed leaders. This meeting transformed the Waldensians from a persecuted medieval sect into an open Protestant denomination, fundamentally changing their relationship with both civil and religious authorities and setting the stage for centuries of official persecution but also international Protestant solidarity.",
+        "coordinates": {
+            "latitude": 44.8150,
+            "longitude": 7.1750
+        }
+    },
+    {
+        "id": "",
+        "name": "Geneva, Switzerland",
+        "description": "Geneva is a city in southwestern Switzerland, located at the southern tip of Lake Geneva where the Rhône River exits the lake. With a population of about 200,000, Geneva serves as a global center for diplomacy and is home to numerous international organizations.\n\nGeneva played a pivotal role in Waldensian history through its connection to John Calvin and the Protestant Reformation. Following the Synod of Chanforan in 1532, Waldensian representatives traveled to Geneva to establish formal ties with the Reformed churches. Calvin and other Geneva-based reformers provided theological guidance, educational resources, and political support to the Waldensian communities. Geneva became a crucial source of trained pastors for Waldensian churches and a center for printing religious literature in the Waldensian language. The city served as a refuge for Waldensian leaders during periods of intense persecution and maintained ongoing diplomatic efforts to protect Waldensian communities from religious persecution. The relationship between Geneva and the Waldensian valleys exemplified the international solidarity that characterized the Protestant Reformation and helped ensure the survival of the Waldensian movement through its most challenging periods.",
+        "coordinates": {
+            "latitude": 46.2044,
+            "longitude": 6.1432
+        }
+    },
+    {
+        "id": "",
+        "name": "Montevideo, Uruguay",
+        "description": "Montevideo is the capital and largest city of Uruguay, located on the southern coast of the country along the Rio de la Plata. With a population of about 1.7 million in its metropolitan area, it serves as the political, economic, and cultural center of Uruguay.\n\nMontevideo served as the primary port of entry and administrative center for Waldensian immigration to Uruguay in the mid-19th century. The city housed the administrative offices that coordinated the establishment of Waldensian colonies like Colonia Valdense and La Paz. Waldensian leaders worked with Uruguayan government officials in Montevideo to negotiate the terms of settlement, including guarantees of religious freedom and land grants for agricultural colonies. The city became home to important Waldensian institutions, including churches, schools, and cultural organizations that served both urban Waldensian residents and the rural colonies. Montevideo's role as a cosmopolitan port city made it an ideal place for Waldensians to maintain connections with their European origins while participating in the development of modern Uruguay. The city continues to host active Waldensian congregations that maintain ties with the global Waldensian community.",
+        "coordinates": {
+            "latitude": -34.9011,
+            "longitude": -56.1645
+        }
+    },
+    {
+        "id": "",
+        "name": "Barmen, Germany",
+        "description": "Barmen was an independent city in the Prussian Rhine Province (now part of Wuppertal in North Rhine-Westphalia, Germany). Located in the industrial Ruhr region, it was an important center of textile manufacturing and Protestant religious activity.\n\nBarmen holds significance in Waldensian history through the famous Barmen Declaration of 1934, a key document of the Confessing Church's resistance to Nazi ideology. While not exclusively Waldensian, this declaration represented the type of theological resistance that resonated with Waldensian traditions of standing against religious persecution and maintaining independence from state control of religion. The Barmen Declaration's emphasis on the supremacy of Christ over political ideologies echoed themes that had characterized Waldensian resistance throughout history. German Waldensian communities, particularly those descended from the refugees who settled in Württemberg in the early 18th century, were part of the broader Protestant resistance to Nazi attempts to control religious life. The connection between Barmen and Waldensian history demonstrates the movement's continued relevance in 20th-century struggles for religious freedom and resistance to totalitarian control.",
+        "coordinates": {
+            "latitude": 51.2562,
+            "longitude": 7.1995
+        }
+    },
+    {
+        "id": "",
+        "name": "Nizza Monferrato, Italy",
+        "description": "Nizza Monferrato is a comune in the province of Asti in the Piedmont region of northwestern Italy. Located in the Monferrato hills about 60 kilometers southeast of Turin, it is known for its wine production and serves as an important agricultural center.\n\nNizza Monferrato played a significant role in the broader context of Waldensian history in Piedmont, serving as one of the lowland areas where Waldensians sought refuge and established communities when pressure in the valleys became too intense. During various periods of persecution, Waldensian families would migrate from their traditional mountain strongholds to areas like Nizza Monferrato, where they could blend more easily into the general population while maintaining their religious beliefs. The town's location in the broader Piedmontese region made it an important waystation for Waldensians traveling between the valleys and other parts of Italy or Europe. After the gradual acceptance of religious tolerance, Nizza Monferrato became part of the network of Piedmontese communities with active Waldensian congregations, contributing to the movement's successful integration into modern Italian society while preserving its distinctive religious and cultural heritage.",
+        "coordinates": {
+            "latitude": 44.7728,
+            "longitude": 8.3556
+        }
+    },
+    {
+        "id": "",
+        "name": "Grenoble, France",
+        "description": "Grenoble is a city in southeastern France, located at the foot of the French Alps in the Isère valley. With a population of about 160,000, it serves as the capital of the Isère department and is an important center for technology and winter sports.\n\nGrenoble played a significant role in early Waldensian history as one of the key locations in the Dauphiné region where Waldensian communities established themselves in the 13th and 14th centuries. The area around Grenoble provided refuge for Waldensians fleeing persecution in other parts of France and offered access to the Alpine passes that connected French and Italian Waldensian communities. During the medieval period, the Dauphiné region was semi-independent, which sometimes provided more tolerance for religious minorities than other parts of France. Waldensian communities in the Grenoble area maintained connections with their co-religionists across the Alps in Piedmont, creating an important network for the exchange of religious ideas, literature, and mutual support. The city's location made it a crucial staging point for Waldensian missionaries and refugees moving between France and Italy throughout the centuries of persecution.",
+        "coordinates": {
+            "latitude": 45.1885,
+            "longitude": 5.7245
+        }
+    },
+    {
+        "id": "",
+        "name": "Monett, Missouri, USA",
+        "description": "Monett is a city in Barry and Lawrence counties in southwestern Missouri, United States. With a population of about 9,000, it serves as a small regional center in the Missouri Ozarks region.\n\nMonett holds significance in American Waldensian history as the site of the American Waldensian Society, an organization founded in 1906 to support Waldensian work in Italy and preserve Waldensian heritage in America. The society was established by American Protestants who were inspired by the Waldensian story of faith and persecution, seeing them as exemplars of religious freedom and biblical Christianity. Through the American Waldensian Society, Monett became a center for American support of Waldensian educational and social work in Italy, particularly in the traditional valleys of Piedmont. The society funded schools, hospitals, and agricultural programs, helping Waldensian communities modernize while preserving their cultural identity. This connection between a small Missouri town and the ancient valleys of Piedmont exemplifies the international networks of Protestant solidarity that have helped sustain the Waldensian movement throughout its history.",
+        "coordinates": {
+            "latitude": 36.9289,
+            "longitude": -93.9282
+        }
+    },
+    {
+        "id": "",
+        "name": "Strasbourg, France",
+        "description": "Strasbourg is a city in eastern France, near the border with Germany in the Grand Est region. With a population of about 280,000, it serves as the capital of the Bas-Rhin department and hosts several European Union institutions.\n\nStrasbourg played an important role in Waldensian history during the Protestant Reformation period, particularly as a center of Reformed theology and printing. After the Synod of Chanforan in 1532, when Waldensians aligned themselves with the broader Protestant Reformation, Strasbourg became one of the key cities where Waldensian representatives established connections with other Reformed churches. The city's printing houses produced religious literature that was distributed to Waldensian communities, including Bible translations and theological works. Strasbourg's position as a major center of Protestant learning made it an important source of theological education for Waldensian pastors and leaders. The city's tradition of religious tolerance and its role in the broader Protestant network provided crucial support for the Waldensian movement during its transformation from a persecuted medieval sect to an officially recognized Protestant denomination.",
+        "coordinates": {
+            "latitude": 48.5734,
+            "longitude": 7.7521
+        }
+    },
+    {
+        "id": "",
+        "name": "Asti, Italy",
+        "description": "Asti is a city in the Piedmont region of northwestern Italy, located about 55 kilometers east of Turin. With a population of about 76,000, it serves as the capital of the province of Asti and is famous for its wine production, particularly Asti Spumante.\n\nAsti played a complex role in Waldensian history as both a center of persecution and, later, a place of refuge and integration. During the medieval and early modern periods, Asti often served as a base for Catholic authorities organizing campaigns against Waldensian communities in the nearby valleys. However, the city's commercial importance and relative cosmopolitan character also made it a place where Waldensians could sometimes find temporary refuge or conduct business. As religious tolerance gradually increased in Piedmont, Asti became an important center for Waldensian integration into broader Italian society. The city hosted Waldensian institutions and served as a bridge between the traditional mountain communities and the modern commercial and administrative centers of Piedmont. Today, Asti represents the successful integration of Waldensian heritage into contemporary Italian life while maintaining respect for the movement's historical significance.",
+        "coordinates": {
+            "latitude": 44.9009,
+            "longitude": 8.2065
+        }
+    },
+    {
+        "id": "",
+        "name": "Sainte-Foy-Tarentaise, France",
+        "description": "Sainte-Foy-Tarentaise is a commune in the Savoie department in the Auvergne-Rhône-Alpes region of southeastern France. Located in the Tarentaise Valley in the French Alps, it sits at an elevation of about 1,550 meters and serves as a mountain resort community.\n\nSainte-Foy-Tarentaise represents one of the high-altitude French locations where Waldensian communities established themselves during medieval times. The remote mountain location provided natural protection from persecution and allowed Waldensian communities to maintain their religious practices in relative safety. The area's position in the French Alps made it part of the network of mountain communities that connected French and Italian Waldensian settlements across the Alpine passes. During periods of intense persecution, these high-altitude refuges became crucial for the survival of the movement. The harsh mountain environment required Waldensian communities to develop strong mutual support systems and maintain close cooperation for survival, characteristics that became central to Waldensian cultural identity. Although the modern community has evolved significantly, the area retains historical significance as part of the geographic network that enabled Waldensian survival through centuries of persecution.",
+        "coordinates": {
+            "latitude": 45.6167,
+            "longitude": 6.9667
+        }
+    },
+    {
+        "id": "",
+        "name": "Stuttgart, Germany",
+        "description": "Stuttgart is the capital and largest city of the German state of Baden-Württemberg, located in southern Germany. With a population of about 630,000, it serves as a major industrial center and is famous for its automotive industry.\n\nStuttgart holds significance in Waldensian history as the administrative center of Württemberg, the German duchy that provided refuge to Waldensian religious refugees in the early 18th century. Following the persecution and exile of Waldensians from their traditional valleys in 1686, Duke Eberhard Ludwig of Württemberg offered sanctuary to Waldensian refugees, leading to the establishment of several Waldensian colonies in the region. Stuttgart served as the administrative center for these resettlement efforts and housed the offices that coordinated support for the new communities. The Württemberg government's protection of Waldensian refugees demonstrated the broader Protestant solidarity that helped ensure the movement's survival during its most challenging period. The successful integration of Waldensian refugees into Württemberg society, administered from Stuttgart, became a model for religious tolerance and refugee resettlement that influenced broader European attitudes toward religious minorities.",
+        "coordinates": {
+            "latitude": 48.7758,
+            "longitude": 9.1829
+        }
+    },
+    {
+        "id": "",
+        "name": "New York City, USA",
+        "description": "New York City is the most populous city in the United States, located at the mouth of the Hudson River in southeastern New York state. With a population of over 8 million, it serves as a global center for finance, arts, fashion, and culture.\n\nNew York City played an important role in American Waldensian history as a major port of entry for Waldensian immigrants coming to America in the late 19th and early 20th centuries. Many Waldensian families passed through Ellis Island and initially settled in New York before moving to other parts of the United States, particularly to the growing Waldensian communities in North Carolina. The city housed important organizations that supported Waldensian immigration and helped new arrivals find work and housing. New York's large Italian-American community provided a cultural bridge for Waldensian immigrants, though the Protestant Waldensians maintained their distinct religious identity. The city also served as a center for American Protestant organizations that supported Waldensian work in Italy and helped maintain connections between American Waldensian communities and their European origins. Today, New York continues to host Waldensian cultural and religious organizations that preserve the movement's heritage.",
+        "coordinates": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
+    },
+    {
+        "id": "",
+        "name": "Bakerton, West Virginia, USA",
+        "description": "Bakerton is a small unincorporated community in Jefferson County, West Virginia, located in the eastern panhandle of the state near the Maryland and Virginia borders. The area is part of the greater Washington, D.C. metropolitan region.\n\nBakerton holds significance in American Waldensian history as one of the locations where Waldensian immigrants established small communities in the late 19th century. Some Waldensian families, seeking agricultural opportunities and religious freedom, settled in this area of West Virginia, drawn by available farmland and the region's Protestant character. While smaller than the major Waldensian settlement in North Carolina, the Bakerton area community represented the broader dispersion of Waldensian immigrants throughout America as they sought economic opportunities while maintaining their religious and cultural identity. These smaller communities often served as stepping stones for further migration and helped establish networks of mutual support among Waldensian families throughout the United States. The West Virginia settlement demonstrates the adaptability of Waldensian communities and their ability to establish themselves in diverse American environments while preserving their distinctive heritage.",
+        "coordinates": {
+            "latitude": 39.3595,
+            "longitude": -77.7611
+        }
+    },
+    {
+        "id": "",
+        "name": "Metz, France",
+        "description": "Metz is a city in northeastern France, located in the Grand Est region near the borders with Luxembourg and Germany. With a population of about 117,000, it serves as the capital of the Moselle department and has been an important crossroads city throughout European history.\n\nMetz played a significant role in medieval Waldensian history as one of the early centers where Waldensian preachers established communities in the 12th and 13th centuries. The city's location along major trade routes made it an important center for the spread of Waldensian ideas throughout northern France and into the German territories. Medieval records document the presence of Waldensian communities in Metz, where they conducted clandestine religious services and maintained networks with other Waldensian groups across Europe. The city's commercial importance provided opportunities for Waldensian merchants and artisans to sustain themselves while spreading their religious message. Although the Waldensian presence in Metz was eventually suppressed by Catholic authorities, the city remains historically significant as one of the northern outposts of the medieval Waldensian movement, demonstrating the wide geographic reach of Peter Waldo's followers in the early centuries of the movement.",
+        "coordinates": {
+            "latitude": 49.1193,
+            "longitude": 6.1757
+        }
+    },
+    {
+        "id": "",
+        "name": "Milan, Italy",
+        "description": "Milan is a major city in northern Italy, serving as the capital of the Lombardy region. With a population of about 1.4 million in the city proper and over 3 million in the metropolitan area, it is Italy's economic capital and a global fashion and design center.\n\nMilan holds importance in Waldensian history both as a center of persecution and, in modern times, as a place of integration and growth. During the medieval and early modern periods, Milan was often the seat of Catholic authorities who organized campaigns against Waldensian communities in the nearby Alpine valleys. The city's archbishops frequently led efforts to suppress Waldensian religious activities and coordinate with civil authorities for persecution campaigns. However, Milan's role changed dramatically with the growth of religious tolerance and Italian unification. In the 19th and 20th centuries, Milan became an important center for Waldensian integration into modern Italian society, hosting educational institutions, publishing houses, and cultural organizations. The city's economic opportunities attracted Waldensians from the traditional valleys, contributing to the urbanization of the Waldensian community while maintaining connections to their mountain heritage.",
+        "coordinates": {
+            "latitude": 45.4642,
+            "longitude": 9.1900
+        }
+    },
+    {
+        "id": "",
+        "name": "Rome, Italy",
+        "description": "Rome is the capital and largest city of Italy, located in the central part of the country along the Tiber River. With a population of about 2.9 million, it serves as the political center of Italy and houses Vatican City, the spiritual center of the Catholic Church.\n\nRome's relationship with Waldensian history is complex, representing both the center of opposition and, eventually, a place of dialogue and reconciliation. As the seat of the Catholic Church, Rome was the source of many papal decrees condemning Waldensian beliefs and authorizing persecution campaigns against Waldensian communities. The Lateran Council of 1215 formally condemned the Waldensians as heretics, making Rome the center of official Catholic opposition to the movement. However, Rome's significance changed dramatically in the 20th century with the development of ecumenical dialogue. The Second Vatican Council and subsequent papal statements acknowledged the validity of Waldensian faith and opened new possibilities for dialogue between Catholics and Waldensians. Today, Rome hosts important interfaith meetings and serves as a symbol of the transformation from centuries of persecution to modern religious cooperation and mutual respect.",
+        "coordinates": {
+            "latitude": 41.9028,
+            "longitude": 12.4964
+        }
+    },
+    {
+        "id": "",
+        "name": "Toulouse, France",
+        "description": "Toulouse is a city in southwestern France, located on the banks of the Garonne River. With a population of about 475,000, it serves as the capital of the Haute-Garonne department and is known for its aerospace industry and historic architecture.\n\nToulouse played a significant role in early Waldensian history as one of the major centers in southern France where Waldensian communities established themselves in the late 12th and early 13th centuries. The city's location in the Languedoc region, which had a tradition of religious diversity and some tolerance for alternative Christian movements, made it attractive to early Waldensian settlers. However, Toulouse also became a center of persecution during the Albigensian Crusade, when Catholic authorities sought to eliminate all forms of religious dissent in southern France. Many Waldensians in the Toulouse area were forced to flee or convert during this period of intense persecution. The city's history exemplifies the challenges faced by medieval Waldensian communities in balancing their desire to spread their religious message with the need to survive in an increasingly hostile religious environment.",
+        "coordinates": {
+            "latitude": 43.6047,
+            "longitude": 1.4442
+        }
+    },
+    {
+        "id": "",
+        "name": "Prague, Czech Republic",
+        "description": "Prague is the capital and largest city of the Czech Republic, located in the central part of the country along the Vltava River. With a population of about 1.3 million, it serves as the political, cultural, and economic center of the Czech Republic and is renowned for its historic architecture.\n\nPrague holds significance in Waldensian history through its connection to the broader tradition of pre-Reformation religious reform movements. The city was the center of the Hussite movement in the early 15th century, which shared many theological similarities with Waldensian beliefs, including emphasis on biblical authority, criticism of papal supremacy, and support for preaching in the vernacular. There were documented connections between Waldensian and Hussite communities, with some evidence of mutual influence and cooperation. Prague's tradition of religious reform and resistance to papal authority made it a natural ally for Waldensian communities seeking support for their own reform efforts. The city's eventual Protestant character and its role in the broader European Reformation provided a model for Waldensian integration into the Protestant movement that would be formalized at the Synod of Chanforan in 1532.",
+        "coordinates": {
+            "latitude": 50.0755,
+            "longitude": 14.4378
+        }
+    },
+    {
+        "id": "",
+        "name": "Berlin, Germany",
+        "description": "Berlin is the capital and largest city of Germany, located in northeastern Germany along the Spree and Havel rivers. With a population of about 3.7 million, it serves as the political center of Germany and is a major cultural and economic hub in Europe.\n\nBerlin's significance in Waldensian history lies primarily in its role as the capital of Prussia and later Germany, where policies of religious tolerance provided crucial support for Waldensian refugees and communities. During the 18th century, Prussian policies of religious tolerance helped protect Waldensian communities that had been established in various German territories. Berlin served as an administrative center for policies that supported religious minorities, including Waldensians who had fled persecution in their traditional Alpine valleys. In the 19th and 20th centuries, Berlin became a center for scholarly study of Waldensian history and theology, with German universities producing important research on the movement. The city's libraries and archives house significant collections of Waldensian historical documents, making it an important center for understanding the broader European context of Waldensian history and the movement's connections to German Protestant traditions.",
+        "coordinates": {
+            "latitude": 52.5200,
+            "longitude": 13.4050
+        }
+    },
+    {
+        "id": "",
+        "name": "Amsterdam, Netherlands",
+        "description": "Amsterdam is the capital and largest city of the Netherlands, located in the North Holland province. With a population of about 872,000, it serves as the cultural and financial center of the Netherlands and is known for its historic architecture and tolerant social policies.\n\nAmsterdam played an important role in Waldensian history through the Netherlands' tradition of religious tolerance and its support for Protestant refugees throughout Europe. During the 16th and 17th centuries, when Waldensians faced intense persecution in their traditional territories, the Netherlands provided refuge and support for Protestant refugees, including some Waldensian families and leaders. Amsterdam's Protestant character and its networks of international trade and diplomacy made it an important center for organizing support for persecuted Protestant communities throughout Europe. The city served as a base for diplomatic efforts to protect Waldensian communities and helped coordinate international Protestant solidarity during periods of crisis. Amsterdam's printing houses also produced religious literature that was distributed to Protestant communities throughout Europe, including Waldensian areas. The city represents the broader European Protestant solidarity that was crucial for Waldensian survival during their most challenging periods.",
+        "coordinates": {
+            "latitude": 52.3676,
+            "longitude": 4.9041
+        }
+    },
+    {
+        "id": "",
+        "name": "London, England",
+        "description": "London is the capital and largest city of England and the United Kingdom, located in southeastern England along the Thames River. With a population of about 9 million in the metropolitan area, it serves as a global center for finance, culture, and politics.\n\nLondon played a crucial role in Waldensian history through British Protestant support for persecuted Waldensian communities, particularly during the 17th century. The massacre of Waldensians in the Piedmont valleys in 1655 prompted significant outrage in Protestant England, leading to organized diplomatic and financial support coordinated from London. The British government and Protestant organizations based in London provided crucial assistance to Waldensian refugees and helped pressure European powers to protect Waldensian rights. Oliver Cromwell's government was particularly active in supporting Waldensian causes, organizing international Protestant solidarity from London. British missionary societies and Protestant organizations based in London continued to support Waldensian communities throughout the 18th and 19th centuries, funding educational and social programs in the traditional valleys. London's role demonstrates the international character of Protestant solidarity that helped ensure Waldensian survival and eventual recognition.",
+        "coordinates": {
+            "latitude": 51.5074,
+            "longitude": -0.1278
+        }
+    },
+    {
+        "id": "",
+        "name": "Vienna, Austria",
+        "description": "Vienna is the capital and largest city of Austria, located in the eastern part of the country along the Danube River. With a population of about 1.9 million, it serves as Austria's political, cultural, and economic center and has been a major European capital for centuries.\n\nVienna's role in Waldensian history is primarily connected to its position as the capital of the Habsburg Empire, which controlled territories adjacent to traditional Waldensian areas. During various periods, Habsburg policies toward religious minorities directly affected Waldensian communities, sometimes providing protection and other times supporting persecution efforts. Vienna served as the administrative center for imperial policies that influenced the religious and political environment in which Waldensian communities operated. The city was also important for diplomatic efforts involving Waldensian rights, as international negotiations concerning religious minorities often took place in Vienna due to its central role in European politics. In the 18th and 19th centuries, Vienna became a center for scholarly study of religious minorities, including Waldensian history and theology, contributing to broader European understanding of the movement's significance in the development of religious tolerance and Protestant Christianity.",
+        "coordinates": {
+            "latitude": 48.2082,
+            "longitude": 16.3738
+        }
+    },
+    {
+        "id": "",
+        "name": "São Paulo, Brazil",
+        "description": "São Paulo is the largest city in Brazil and the Southern Hemisphere, located in southeastern Brazil. With a metropolitan population of over 22 million, it serves as Brazil's economic center and is one of the most populous urban areas in the world.\n\nSão Paulo holds significance in modern Waldensian history as a destination for 20th-century Waldensian immigration to Brazil. Following the tradition of Waldensian migration to the Americas that began in the 19th century with settlements in Uruguay and Argentina, some Waldensian families continued to migrate to Brazil, particularly to São Paulo, in search of economic opportunities. The city's large Italian immigrant community provided a cultural context that was familiar to Waldensian immigrants from Piedmont, though they maintained their distinct Protestant identity in a predominantly Catholic country. São Paulo's industrial development offered employment opportunities for Waldensian immigrants, while the city's cosmopolitan character allowed them to maintain their religious and cultural traditions. The Waldensian presence in São Paulo represents the continued global expansion of the movement and demonstrates the adaptability of Waldensian communities to diverse cultural and religious environments while preserving their distinctive heritage.",
+        "coordinates": {
+            "latitude": -23.5558,
+            "longitude": -46.6396
+        }
+    },
+    {
+        "id": "",
+        "name": "Cape Town, South Africa",
+        "description": "Cape Town is a major city in South Africa, located on the southwestern coast at the foot of Table Mountain. With a population of about 4.6 million in the metropolitan area, it serves as the legislative capital of South Africa and is the country's second-largest city.\n\nCape Town represents one of the more distant outposts of Waldensian diaspora, connected to the movement through South African Protestant churches and missionary activities. Some Waldensian families migrated to South Africa in the late 19th and early 20th centuries as part of broader European immigration to the region. The Protestant character of much of the European settlement in South Africa provided a religious environment where Waldensian traditions could be maintained and integrated with other Protestant denominations. Cape Town's role as a major port and commercial center made it attractive to Waldensian immigrants seeking economic opportunities while maintaining their religious identity. The city also served as a center for Protestant missionary activities that connected South African churches with international Protestant networks, including connections to Waldensian communities in Europe and the Americas. This represents the truly global reach that the Waldensian movement achieved through migration and missionary activities.",
+        "coordinates": {
+            "latitude": -33.9249,
+            "longitude": 18.4241
+        }
+    },
+    {
+        "id": "",
+        "name": "Melbourne, Australia",
+        "description": "Melbourne is the capital city of the state of Victoria in Australia and the country's second-largest city. With a metropolitan population of about 5.2 million, it serves as a major cultural and economic center and is known for its diverse immigrant communities.\n\nMelbourne represents the furthest geographic expansion of Waldensian diaspora communities, connected to the movement through 20th-century immigration and Australia's tradition of religious tolerance. Some Waldensian families migrated to Australia, particularly to Melbourne, as part of post-World War II European immigration to Australia. The city's multicultural character and Protestant heritage provided an environment where Waldensian immigrants could maintain their religious and cultural traditions while integrating into Australian society. Melbourne's Italian immigrant community offered cultural connections for Waldensian families from Piedmont, while the city's Protestant churches provided religious community. The presence of Waldensian families in Melbourne demonstrates the truly global reach of the movement and its ability to adapt to diverse cultural environments while preserving its essential character. This Australian connection represents the final expansion of a movement that began in 12th-century Lyon and eventually reached every inhabited continent.",
+        "coordinates": {
+            "latitude": -37.8136,
+            "longitude": 144.9631
         }
     }
 ]
